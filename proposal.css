@@ -1,0 +1,26 @@
+a:link{
+    color: white;
+}
+a:visited{
+    color: white;
+}
+#titleHead{
+    background-color:#274C69;
+    width: 100%;
+    color: white;
+    font-family: "verdana, sans-serif";
+    letter-spacing: 1px;
+    padding-left: 3%;
+}
+.navbar{
+    background-color:#083B14;
+    width: 100%;
+    
+}
+.container{
+    background-color: #4D735A;
+     
+}
+#footer{
+    background-color:#274C69;
+}
