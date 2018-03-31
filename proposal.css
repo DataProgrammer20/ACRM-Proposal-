@@ -6,11 +6,13 @@ a:visited{
 }
 #titleHead{
     font-family: "verdana", sans-serif;
-    letter-spacing: 1px;
-    padding-left: 3%;
+    padding-left: 1%;
 }
 #mainTitle{
-    font-size:15;
+    text-align: left;
+    letter-spacing: 2px;
+    font-size: 25px;
+    padding-left: 15px;
 }
 #background{
     background-color: #F7F7F7;
@@ -25,9 +27,13 @@ a:visited{
      
 }
 #footer{
+    padding-top: 2%;
     background-color:#3D5496;
 }
 #bottomNav{
     list-style-type: none;
     padding-left: 0px;
+}
+h6{
+    margin: 20px 0px 0px 15px;
 }
