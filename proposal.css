@@ -5,22 +5,35 @@ a:visited{
     color: white;
 }
 #titleHead{
-    background-color:#274C69;
-    width: 100%;
-    color: white;
-    font-family: "verdana, sans-serif";
-    letter-spacing: 1px;
-    padding-left: 3%;
+    font-family: "verdana", sans-serif;
+    padding-left: 1%;
+}
+#mainTitle{
+    text-align: left;
+    letter-spacing: 2px;
+    font-size: 25px;
+    padding-left: 15px;
+}
+#background{
+    background-color: #F7F7F7;
 }
 .navbar{
-    background-color:#083B14;
+    background-color: #3D5496;
     width: 100%;
     
 }
 .container{
-    background-color: #4D735A;
+    background-color: #F7F7F7;
      
 }
 #footer{
-    background-color:#274C69;
+    padding-top: 2%;
+    background-color:#3D5496;
+}
+#bottomNav{
+    list-style-type: none;
+    padding-left: 0px;
+}
+h6{
+    margin: 20px 0px 0px 15px;
 }
