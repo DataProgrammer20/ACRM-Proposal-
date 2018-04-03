@@ -8,8 +8,8 @@ a:visited{
     font-family: "verdana", sans-serif;
     padding-left: 1%;
 }
-#mainTitle{
-    text-align: left;
+.mainTitle{
+    text-align: right;
     letter-spacing: 2px;
     font-size: 25px;
     padding-left: 15px;
@@ -18,7 +18,7 @@ a:visited{
     background-color: #F7F7F7;
 }
 .navbar{
-    background-color: #3D5496;
+    background-color: #3B3B3B;
     width: 100%;
     
 }
@@ -28,7 +28,7 @@ a:visited{
 }
 #footer{
     padding-top: 2%;
-    background-color:#3D5496;
+    background-color:#3B3B3B;
 }
 #bottomNav{
     list-style-type: none;
@@ -36,4 +36,12 @@ a:visited{
 }
 h6{
     margin: 20px 0px 15px 15px;
+}
+li{
+    list-style-type: none;
+}
+.visit{
+    font-family: "Georgia", serif;
+    font-size: 30px;
+    color: #5E7FE5;
 }
