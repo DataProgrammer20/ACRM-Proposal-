@@ -45,3 +45,12 @@ li{
     font-size: 30px;
     color: #5E7FE5;
 }
+.topHeader{
+    background-image: url("../images/bannerImage.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    
+    /*background-color: #5E7FE5;*/
+}
