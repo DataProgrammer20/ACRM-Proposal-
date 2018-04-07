@@ -7,6 +7,7 @@ a:visited{
 #titleHead{
     font-family: "verdana", sans-serif;
     padding-left: 1%;
+   
 }
 .mainTitle{
     text-align: right;
@@ -18,10 +19,10 @@ a:visited{
     background-color: #F7F7F7;
 }
 .navbar{
-    background-color: #3B3B3B;
+    background-color: #336699;
     width: 100%;
-    
 }
+
 .container{
     background-color: #F7F7F7;
      
@@ -46,11 +47,12 @@ li{
     color: #5E7FE5;
 }
 .topHeader{
-    background-image: url("../images/bannerImage.jpeg");
+   /* background-image: url("../images/bannerImage.jpeg");
     background-size: cover;
     background-repeat: no-repeat;
     width: 100%;
-    height: 100%;
-    
-    /*background-color: #5E7FE5;*/
+    height: 100%;*/
+    color: black;
+    padding-top: 1%;
+    background-color: #336699;
 }
