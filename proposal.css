@@ -10,19 +10,22 @@ a:visited{
    
 }
 .mainTitle{
+    color: #5E7FE5;
     text-align: right;
     letter-spacing: 2px;
     font-size: 25px;
     padding-left: 15px;
 }
+.motto{
+    color: #5E7FE5;
+}
 #background{
     background-color: #F7F7F7;
 }
 .navbar{
-    background-color: #336699;
+    background-color: #3B3B3B;
     width: 100%;
 }
-
 .container{
     background-color: #F7F7F7;
      
@@ -54,5 +57,5 @@ li{
     height: 100%;*/
     color: black;
     padding-top: 1%;
-    background-color: #336699;
+    background-color: #3B3B3B;
 }
