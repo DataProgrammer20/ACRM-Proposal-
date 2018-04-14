@@ -4,22 +4,23 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-           KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"                     crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous">
     </script>
-    <script         src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous">
     </script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
     <title>ACRM</title>
     <!-- Bootstrap -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link href="proposal.css" rel="stylesheet">
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <![endif]-->
+     <!--<link type="text/css" href="proposal.css" >-->
+    <!--[endif]-->
       <style>
           .carousel-inner img {
               width: 50%;
@@ -30,31 +31,34 @@
           }
       </style>
   </head>
-  <body>
-    <div class= "container">
-        <div class="row bg-light text-dark">
-            <header>
-                <h1>American Comuputer and Robotics Museum</h1>
-                <h5 class="contentSlide">"To collect, preserve, interpret, and display the artifacts and history of the information age.”</h5>
-            </header>
+  <body id="background">
+    <div class= "container-fluid">
+        <div class="row text-light topHeader">
+            <div class="col-sm-12">
+                <header>
+                    <h1 class="mainTitle">American Comuputer and Robotics Museum</h1>
+                    <h5 class="contentSlide motto">"To collect, preserve, interpret, and display the artifacts and history of the information age.”</h5>
+                    <h6 class="motto"><em><u>Since 1990:</u> The World's <u>Oldest</u> Continually Operating Museum of its Kind!</em></h6>
+                </header>
+            </div>
         </div>
         <div class="row bg-light">
-            <nav class="navbar">
+            <nav class="navbar border-top border-secondary">
                 <ul class="nav">
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Home</a>
+                        <a class="nav-link" href="proposal.html">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Hours</a>
+                        <a class="nav-link" href="#hours">Hours</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Exhibits</a>
+                        <a class="nav-link" href="Exhibits.html">Exhibits</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Donate</a>
+                        <a class="nav-link" href="donations.html">Donate</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Awards</a>
+                        <a class="nav-link" href="Museum-Honorees.html">Museum Honorees</a>
                     </li>
                 </ul>
             </nav>
@@ -63,10 +67,15 @@
             <div class="col-12">
                 <header class="paraHeader text-center">
                     <p><strong>A New Major Exhibit! Opening on June 1, 2018</strong></p>
-                    <h2 class="text-info">Hidden No More:<br>200+ Years of Women in Computing</h2>
+                    <h2 class="text-dark">Hidden No More:<br>200+ Years of Women in Computing</h2>
                 </header>
                 <div class="text-center">
-                    <img src="GooglePlexPhoto1.jpg" class="rounded mx-auto d-block" style="width: 50%;" alt="Women in Computing ACRM">
+                    <img src="http://www.compustory.com/_Media/women-in-computing-acrm_med_hr.jpeg" class="rounded mx-auto d-block" style="width: 70%;" alt="Women in Computing ACRM">
+                </div>
+                <div class="text-center">
+                    <p>From Ada Lovelace to Grace Hopper to Katherine Johnson to Today:<br>
+                        Experience & be <em><u>Inspired</u></em> by these thousands of beautiful
+                        mathematical<br> minds through their stories, rare images, documents & signed artifacts.</p>
                 </div>
             </div>
         </div>
@@ -100,72 +109,113 @@
             </div> <!-- carousel -->
         </div> <!-- row -->
         <div class="row bg-light contentSlide">
-            <div class="col-3">
+            <div class="col-sm-3">
                 <blockquote class="blockquote">
                     <p><em>"Inch for inch, the best museum in the world."</em></p>
                     <footer class="blockquote-footer">Dr. Edward O. Wilson<br>Professor Emeritus, Harvard</footer>
                 </blockquote>
             </div>
-            <div class="col-3">
+            <div class="col-sm-3">
                 <blockquote class="blockquote">
                     <p><em>"One of the 10 Best Free Museums in the USA"</em></p>
                     <footer class="blockquote-footer">USA Today</footer>
                 </blockquote>
             </div>
-            <div class="col-3">
+            <div class="col-sm-3">
                 <blockquote class="blockquote">
                     <p><em>"Ranked as #1 of Montana History Museums"</em></p>
                     <footer class="blockquote-footer">TripAdvisor</footer>
                 </blockquote>
             </div>
-            <div class="col-3">
+            <div class="col-sm-3">
                 <img src="http://www.compustory.com/_Media/5-stars_med_hr.png" alt="">
                 <p><strong>Google Reviews: 4.9/5</strong></p>
             </div>
         </div> <!-- row -->
-        <div class ="row bg-secondary text-white">
-                <div class="col-4">
-                    <footer>
-                        <ul style="list-style-type: none">
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Home</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Hours</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Exhibits</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Donate</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Awards</a>
-                            </li>
-                        </ul>
-                    </footer>
-                </div>
-                <div class="col-4">
-                    <footer>
-                        <p>Hours:<br>
-                        Closed Monday<br>
-                        Tuesday - Sunday 12:00 pm to 4:00 pm<br>
-                        Closed Easter Sunday<br></p>
-                        <p class="text-center" style="position: relative; top: 3em">Copywrite ACRM some legal stuff</p><br>
-                    </footer> 
-                </div>
-                <div class="col-4">
-                    <footer>
-                        <h5>Admission: Free! Donations Welcome</h5>
-                        <h5>Location:</h5>
-                        <p>2023 Stadium Drive<br>Bozeman, MT 59715</p>
-                    </footer>
-                </div>
+        <div class="row text-white" id="footer">
+            <div class="col-sm-4">
+                <footer>
+                    <ul id="bottomNav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="proposal.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Hours</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="Exhibits.html">Exhibits</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="donations.html">Donate</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="Museum-Honorees.html">Museum-Honorees</a>
+                        </li>
+                    </ul>
+                </footer>
+            </div>
+            <div class="col-sm-4">
+                <footer>
+                    <ul id="hours">
+                        <li class = "visit">Visit Us</li>
+                        <li>Monday: Closed</li>
+                        <li>Tuesday - Sunday 12:00 pm to 4:00 pm</li>
+                        <li>Closed Easter Sunday</li>
+                    </ul>
+                    <p style="position: relative; top: 2em; margin-left: 38px;">&copy American Computer Museum 2018</p><br>
+                </footer>
+            </div>
+            <div class="col-sm-4">
+                <footer>
+                    <h5 class="visit">Location</h5>
+                    <p>2023 Stadium Drive<br>Bozeman, MT 59715</p>
+                    <h5>Admission: Free! Donations Welcome</h5>
+                </footer>
+            </div>
+        <div class="row text-white" id="footer">
+            <div class="col-sm-4">
+                <footer>
+                    <ul id="bottomNav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="proposal.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Hours</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="Exhibits.html">Exhibits</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="donations.html">Donate</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="Museum-Honorees.html">Museum-Honorees</a>
+                        </li>
+                    </ul>
+                </footer>
+            </div>
+            <div class="col-sm-4">
+                <footer>
+                    <ul id="hours">
+                        <li class = "visit">Visit Us</li>
+                        <li>Monday: Closed</li>
+                        <li>Tuesday - Sunday 12:00 pm to 4:00 pm</li>
+                        <li>Closed Easter Sunday</li>
+                    </ul>
+                    <p style="position: relative; top: 2em; margin-left: 38px;">&copy American Computer Museum 2018</p><br>
+                </footer>
+            </div>
+            <div class="col-sm-4">
+                <footer>
+                    <h5 class="visit">Location</h5>
+                    <p>2023 Stadium Drive<br>Bozeman, MT 59715</p>
+                    <h5>Admission: Free! Donations Welcome</h5>
+                </footer>
+            </div>
         </div>
     </div>
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="js/bootstrap.min.js"></script>
   </body>
 </html>
