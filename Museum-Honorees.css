@@ -1,0 +1,10 @@
+.darker{
+    background: linear-gradient(to bottom right, #DCDCDC, #C0C0C0); !important
+}
+.lighter{
+    background: white;
+}
+.subtitle{
+    font-size: 20px;
+    color: darkred;
+}
