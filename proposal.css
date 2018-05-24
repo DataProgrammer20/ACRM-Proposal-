@@ -21,7 +21,7 @@ a:visited{
 .motto{
     color: black;
 }
-background{
+background {
     background-color: #F7F7F7;
 }
 
@@ -41,10 +41,11 @@ background{
     list-style-type: none;
     padding-left: 0px;
 }
-h6{
+h6 {
     margin: 20px 0px 15px 15px;
 }
-li{
+
+li {
     list-style-type: none;
 }
 .visit{
@@ -64,4 +65,12 @@ li{
 .dropColor {
     color: white;
     background-color: rgb(49, 49, 49);
+}
+
+.bottomLink {
+    color: white;
+}
+
+#exhibitPara {
+    font-size: 1.5em;
 }

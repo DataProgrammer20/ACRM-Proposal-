@@ -1,3 +1,6 @@
 .block-background{
     background: linear-gradient(to bottom right, #D3D3D3, #F0F0F0); 
 }
+#bottomNav li a {
+    color: white;
+}

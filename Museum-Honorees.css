@@ -1,10 +1,28 @@
-.darker{
+.darker {
     background: linear-gradient(to bottom right, #DCDCDC, #C0C0C0); !important
 }
-.lighter{
+.lighter {
     background: white;
 }
-.subtitle{
+.subtitle {
     font-size: 20px;
     color: darkred;
+}
+
+.dropColor {
+    background-color: rgb(202, 202, 202);
+}
+.contentSection {
+    margin: 10px auto 40px auto;
+}
+
+.awardColumn {
+    text-align: center;
+    margin-top: 15px;
+    border-left: solid gray;
+    border-right: solid gray;
+}
+
+#bottomNav li a {
+    color: white;
 }
