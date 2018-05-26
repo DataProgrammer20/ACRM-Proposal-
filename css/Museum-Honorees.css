@@ -2,7 +2,7 @@
     background: linear-gradient(to bottom right, #DCDCDC, #C0C0C0); !important
 }
 .lighter {
-    background: white;
+    background: #F7F7F7;
 }
 .subtitle {
     font-size: 20px;
@@ -18,9 +18,14 @@
 
 .awardColumn {
     text-align: center;
-    margin-top: 15px;
-    border-left: solid gray;
-    border-right: solid gray;
+    margin: 15px 0px 15px 0px;
+   /* border-left: solid gray;*/
+    border-right: solid gray 1px;
+}
+.awardRight{
+    text-align: center;
+    margin: 15px 0px 15px 0px;
+    border: none;
 }
 
 #bottomNav li a {
