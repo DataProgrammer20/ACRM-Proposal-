@@ -1,8 +1,8 @@
 a:link{
-    color: black;
+    color: white;
 }
 a:visited{
-    color: black;
+    color: white;
 }
 #titleHead{
     font-family: "verdana", sans-serif;
@@ -10,7 +10,7 @@ a:visited{
    
 }
 .mainTitle{
-    color: black;
+    /*color: black;*/
     /*color: #5E7FE5;*/
     text-align: left;
     letter-spacing: 2px;
@@ -26,16 +26,24 @@ background {
 }
 
 .navbar{
-    background-color: #3B3B3B;
+    /*background-color: #3B3B3B;*/
     color: white;
     width: 100%;
+    border-top: solid 1px grey;
+    border-bottom: solid 1px grey;
 }
 #topNav li a{
     color: white;
 }
-.container{
+/*.container{
     background-color: #DCDCDC;
      
+}*/
+.purple{
+    background-color: #A64AC9;
+}
+.yellow{
+    background-color: #FCCD04;
 }
 #footer{
     padding-top: 2%;
@@ -77,4 +85,7 @@ li {
 
 #exhibitPara {
     font-size: 1.5em;
+}
+.slate{
+    background-color: #4B5B6A;
 }
