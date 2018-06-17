@@ -1,6 +1,9 @@
 #bottomNav li a {
     color: white;
 }
+#navBar {
+    background-color: #3B3B3B;
+}
 .info{
     font-size: 18px;
     padding: 10% 10% 10% 10%;
