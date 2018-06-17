@@ -1,0 +1,29 @@
+#bottomNav li a {
+    color: white;
+}
+.info{
+    font-size: 18px;
+    padding: 10% 10% 10% 10%;
+}
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: white;
+}
+.overlayPhoto:hover .overlay{
+    opacity: .9;
+    padding-top: 3%;
+}
+.content-row{
+    margin: 10% 5% 10% 5%;
+}
+.first-row{
+    margin: 1% 5% 10% 5%;
+}
