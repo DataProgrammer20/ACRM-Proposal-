@@ -39,12 +39,7 @@ background {
     background-color: #DCDCDC;
      
 }*/
-.purple{
-    background-color: #A64AC9;
-}
-.yellow{
-    background-color: #FCCD04;
-}
+
 #footer{
     padding-top: 2%;
     background-color:#3B3B3B;
@@ -74,10 +69,6 @@ li {
     color: black;
     padding-top: 1%;
 }
-.dropColor {
-    color: white;
-    background-color: rgb(49, 49, 49);
-}
 
 .bottomLink {
     color: white;
@@ -86,6 +77,4 @@ li {
 #exhibitPara {
     font-size: 1.5em;
 }
-.slate{
-    background-color: #4E5A78;
-}
+
